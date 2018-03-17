@@ -41,3 +41,9 @@ tar -xvf amdgpu-pro-17.50-511655.tar.xz
 mv amdgpu-pro-17.50-511655 amdgpu-pro
 apt-get clean
 apt-get autoremove
+
+exit
+exit
+umount /mnt/root/boot/efi
+umount /mnt/root/*
+umount /mnt/root
