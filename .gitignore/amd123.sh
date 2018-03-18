@@ -1,6 +1,4 @@
 
-################################move the flash to your miner and run
-sudo su -
 cd /root
 cd amdgpu-pro 
 ./amdgpu-pro-install -y
