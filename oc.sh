@@ -1,0 +1,25 @@
+sudo echo "16" > /sys/class/drm/card0/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card2/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card3/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card4/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card5/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card6/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card7/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card8/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card9/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card10/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card11/device/pp_mclk_od
+sudo echo "16" > /sys/class/drm/card12/device/pp_mclk_od
+
+sudo echo "3" > /sys/class/drm/card0/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card2/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card3/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card4/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card5/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card6/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card7/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card8/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card9/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card10/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card11/device/pp_dpm_sclk
+sudo echo "3" > /sys/class/drm/card12/device/pp_dpm_sclk
